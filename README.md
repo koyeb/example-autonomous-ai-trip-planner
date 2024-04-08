@@ -39,7 +39,7 @@ You need:
 
 The fastest way to deploy the autonomous AI trip planning application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=ai-trip-planner&type=git&repository=koyeb%2Fexample-autonomous-ai-trip-planner&branch=main&builder=buildpackenv%5BOPENAI_API_KEY%5D=CHANGE_ME&env%5BSERPAPI_API_KEY%5D=CHANGE_ME&ports=8000%3Bhttp%3B%2F)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=ai-trip-planner&type=git&repository=koyeb%2Fexample-autonomous-ai-trip-planner&branch=main&builder=buildpack&env%5BOPENAI_API_KEY%5D=CHANGE_ME&env%5BSERPAPI_API_KEY%5D=CHANGE_ME&ports=8000%3Bhttp%3B%2F)
 
 Clicking on this button brings you to the Koyeb App creation page with everything pre-set to launch this application.  Modify the value of the `OPENAI_API_KEY` and `SERPAPI_API_KEY` environment variables with your own keys and launch the application.
 
